@@ -8,5 +8,13 @@
   "display": "standalone",
   "background_color": "#fbf8f1",
   "theme_color": "#31594b",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
