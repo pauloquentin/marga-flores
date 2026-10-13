@@ -1,0 +1,27 @@
+MARGA FLORES · V1 PROTOTIPO
+
+CONTENIDO
+- index.html: aplicación web responsive en español.
+- manifest.webmanifest: configuración para instalar como PWA.
+- sw.js: caché básica para uso offline después de la primera carga.
+
+FUNCIONES INCLUIDAS
+- Dashboard con métricas del período, evolución de ventas de 6 meses, ventas por rubro/canal, seguimiento cobrado vs pendiente y compras por tipo.
+- Ventas: rubro, canal, importe, fecha, cliente, exhibidor, datos de suscripción, cobrado/pendiente, notas; editar, borrar y marcar cobro.
+- Compras: insumos, equipamiento/capital de trabajo y otros gastos; categorías, proveedor, cantidad, editar y borrar.
+- Suscripciones: cliente, plan, precio mensual, fecha de inicio, día de entrega y estado; acceso rápido para registrar una venta.
+- Exportar ventas y compras a CSV; descargar/restaurar respaldo JSON.
+- Almacenamiento local del navegador.
+
+IMPORTANTE
+Este es un prototipo funcional inicial, no una app nativa publicada. No tiene sincronización entre dispositivos ni inicio de sesión. Los datos se guardan en el almacenamiento del navegador; no borres los datos del sitio y guardá respaldos JSON periódicos. El resultado simple mostrado es ventas menos compras registradas y no equivale a ganancia contable/impositiva.
+
+CÓMO PROBAR DESDE ANDROID
+1. Para que se pueda instalar como PWA y usar offline, los archivos deben estar publicados en una URL HTTPS. Abrir el HTML como archivo local no permite todas las funciones PWA.
+2. Se puede publicar gratis usando un servicio de hosting estático como GitHub Pages, realizando los pasos desde Chrome del teléfono. Luego abrí la URL publicada en Chrome y usá el menú ⋮ > Añadir a pantalla de inicio / Instalar aplicación (el texto depende del teléfono).
+3. Antes de cargar datos reales, probá con registros ficticios y verificá exportación/restauración del respaldo.
+
+PRÓXIMOS PASOS SUGERIDOS
+- Publicarla en HTTPS desde el teléfono.
+- Probar formularios y respaldos en el dispositivo real.
+- Añadir gráficos y filtros más avanzados, inventario y calendario de entregas en iteraciones posteriores.

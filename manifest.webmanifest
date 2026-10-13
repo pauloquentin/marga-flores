@@ -1,0 +1,12 @@
+{
+  "name": "Marga Flores · Gestión",
+  "short_name": "Marga Flores",
+  "description": "Gestión de ventas, compras y suscripciones de Marga Flores",
+  "lang": "es-AR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f1",
+  "theme_color": "#31594b",
+  "orientation": "portrait"
+}
