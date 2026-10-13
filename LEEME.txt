@@ -1,4 +1,4 @@
-MARGA FLORES · V2
+MARGA FLORES · V2.1
 
 Esta versión conserva las funciones de V1 y agrega:
 - Logo real de Marga Flores en el encabezado.
@@ -6,12 +6,13 @@ Esta versión conserva las funciones de V1 y agrega:
 - Dashboard renombrado como Panel de control.
 - Enfoque combinado: control financiero + análisis comercial.
 - Gráfico adicional de ventas vs. compras/gastos de los últimos 6 meses.
+- Indicadores de ticket promedio y porcentaje de cobranza del período.
 - Logo incluido como icono de la PWA.
 
 ARCHIVOS
 - index.html: aplicación web responsive.
 - manifest.webmanifest: configuración PWA e icono.
-- sw.js: caché offline de V2.
+- sw.js: caché offline de V2.1.
 - logo.png: logo de Marga Flores.
 
 IMPORTANTE
