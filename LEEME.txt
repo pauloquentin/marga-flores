@@ -1,17 +1,22 @@
-MARGA FLORES · V2.2
+MARGA FLORES · V2.1
 
-Cambios principales:
-- Formulario de ventas simplificado según la estructura comercial acordada.
-- Cliente ocasional como “Consumidor final” y clientes habituales/comerciales identificados.
-- Rubros: Ramos, Eventos, Centros de mesa, Ramos de novia y Suscripciones.
-- Canales: Exhibidor, Feria, Online, Membresía, Recomendación y Otro.
-- Ocasión opcional.
-- Medio de pago: Efectivo, Transferencia u Otro.
-- Estado: Cobrado o Pendiente.
-- Análisis comercial por canal: operaciones, facturación y ticket promedio.
-- Membresías flexibles: cualquier cantidad de ramos, frecuencia semanal o mensual y estado Activa/Pausada/Finalizada.
-- Control visual de entregas pendientes del período.
-- Se mantiene la misma clave de almacenamiento local para conservar los datos existentes.
+Esta versión conserva las funciones de V1 y agrega:
+- Logo real de Marga Flores en el encabezado.
+- Identidad visual basada en el logo.
+- Dashboard renombrado como Panel de control.
+- Enfoque combinado: control financiero + análisis comercial.
+- Gráfico adicional de ventas vs. compras/gastos de los últimos 6 meses.
+- Indicadores de ticket promedio y porcentaje de cobranza del período.
+- Logo incluido como icono de la PWA.
+
+ARCHIVOS
+- index.html: aplicación web responsive.
+- manifest.webmanifest: configuración PWA e icono.
+- sw.js: caché offline de V2.1.
+- logo.png: logo de Marga Flores.
 
 IMPORTANTE
-Probá V2.2 primero con los datos de prueba y descargá un respaldo JSON antes de cargar datos reales.
+Los datos se guardan localmente en el navegador. Antes de reemplazar archivos publicados, descargá un respaldo JSON desde la app. GitHub contiene solo el código y los archivos de la aplicación; no subas respaldos con datos reales de clientes o ventas.
+
+PUBLICACIÓN
+Reemplazá en GitHub Pages los archivos de la V1 por los archivos de esta V2 y agregá logo.png en la raíz del repositorio.
