@@ -1,22 +1,8 @@
-MARGA FLORES · V2.1
+Marga Flores V2.1.1 - corrección de actualización de historiales y gráfico
 
-Esta versión conserva las funciones de V1 y agrega:
-- Logo real de Marga Flores en el encabezado.
-- Identidad visual basada en el logo.
-- Dashboard renombrado como Panel de control.
-- Enfoque combinado: control financiero + análisis comercial.
-- Gráfico adicional de ventas vs. compras/gastos de los últimos 6 meses.
-- Indicadores de ticket promedio y porcentaje de cobranza del período.
-- Logo incluido como icono de la PWA.
+Esta versión parte de V2.1 y corrige dos comportamientos:
+- Actualización explícita del historial de ventas y compras después de guardar.
+- Corrección visual del gráfico Ventas vs. gastos de los últimos 6 meses.
 
-ARCHIVOS
-- index.html: aplicación web responsive.
-- manifest.webmanifest: configuración PWA e icono.
-- sw.js: caché offline de V2.1.
-- logo.png: logo de Marga Flores.
-
-IMPORTANTE
-Los datos se guardan localmente en el navegador. Antes de reemplazar archivos publicados, descargá un respaldo JSON desde la app. GitHub contiene solo el código y los archivos de la aplicación; no subas respaldos con datos reales de clientes o ventas.
-
-PUBLICACIÓN
-Reemplazá en GitHub Pages los archivos de la V1 por los archivos de esta V2 y agregá logo.png en la raíz del repositorio.
+No cambia la estructura de datos ni las funciones principales de V2.1.
+Archivos en la raíz: index.html, logo.png, manifest.webmanifest, sw.js, LEEME.txt.
