@@ -1,0 +1,17 @@
+MARGA FLORES · V2.2
+
+Cambios principales:
+- Formulario de ventas simplificado según la estructura comercial acordada.
+- Cliente ocasional como “Consumidor final” y clientes habituales/comerciales identificados.
+- Rubros: Ramos, Eventos, Centros de mesa, Ramos de novia y Suscripciones.
+- Canales: Exhibidor, Feria, Online, Membresía, Recomendación y Otro.
+- Ocasión opcional.
+- Medio de pago: Efectivo, Transferencia u Otro.
+- Estado: Cobrado o Pendiente.
+- Análisis comercial por canal: operaciones, facturación y ticket promedio.
+- Membresías flexibles: cualquier cantidad de ramos, frecuencia semanal o mensual y estado Activa/Pausada/Finalizada.
+- Control visual de entregas pendientes del período.
+- Se mantiene la misma clave de almacenamiento local para conservar los datos existentes.
+
+IMPORTANTE
+Probá V2.2 primero con los datos de prueba y descargá un respaldo JSON antes de cargar datos reales.
