@@ -1,8 +1,17 @@
-Marga Flores V2.1.1 - corrección de actualización de historiales y gráfico
+MARGA FLORES · V2.2
 
-Esta versión parte de V2.1 y corrige dos comportamientos:
-- Actualización explícita del historial de ventas y compras después de guardar.
-- Corrección visual del gráfico Ventas vs. gastos de los últimos 6 meses.
+Cambios principales:
+- Formulario de ventas simplificado según la estructura comercial acordada.
+- Cliente ocasional como “Consumidor final” y clientes habituales/comerciales identificados.
+- Rubros: Ramos, Eventos, Centros de mesa, Ramos de novia y Suscripciones.
+- Canales: Exhibidor, Feria, Online, Membresía, Recomendación y Otro.
+- Ocasión opcional.
+- Medio de pago: Efectivo, Transferencia u Otro.
+- Estado: Cobrado o Pendiente.
+- Análisis comercial por canal: operaciones, facturación y ticket promedio.
+- Membresías flexibles: cualquier cantidad de ramos, frecuencia semanal o mensual y estado Activa/Pausada/Finalizada.
+- Control visual de entregas pendientes del período.
+- Se mantiene la misma clave de almacenamiento local para conservar los datos existentes.
 
-No cambia la estructura de datos ni las funciones principales de V2.1.
-Archivos en la raíz: index.html, logo.png, manifest.webmanifest, sw.js, LEEME.txt.
+IMPORTANTE
+Probá V2.2 primero con los datos de prueba y descargá un respaldo JSON antes de cargar datos reales.
