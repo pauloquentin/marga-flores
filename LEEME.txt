@@ -1,12 +1,15 @@
-MARGA FLORES · V2.3 · CLIENTES
+MARGA FLORES · V2.4 · FICHAS DE CLIENTES
 
-Novedades:
-- Nueva sección Clientes.
-- Cliente identificado con nombre comercial, dirección y contacto/WhatsApp.
-- En Ventas, el cliente queda seleccionado desde una lista; Consumidor final sigue siendo la opción predeterminada.
-- Acceso rápido para crear un cliente desde una venta.
-- Cada cliente muestra cantidad de compras, última compra y facturación acumulada registrada.
-- Se mantiene el almacenamiento local existente y la misma clave de datos para conservar los registros actuales.
-- Los respaldos JSON incluyen ahora la lista de clientes.
+NOVEDAD
+- Ficha individual de cada cliente, inspirada en las antiguas fichas de cartón.
+- Resumen: total comprado, cantidad de compras, última compra, rubro y canal más habituales y ticket promedio.
+- Historial de movimientos por fecha, concepto, canal, importe y estado de cobro.
+- Acciones rápidas: nueva venta y editar cliente.
+- Se conserva el almacenamiento local existente (margaFloresV1) y los datos de V2.3.
 
-IMPORTANTE: no borres los datos del sitio. Hacé un respaldo antes de comenzar a cargar datos reales.
+IMPORTANTE
+- No borres los datos del sitio. Mantené respaldos JSON periódicos.
+- Esta versión no incorpora todavía suscripciones/entregas dentro de la ficha; eso queda para una etapa posterior.
+
+PUBLICACIÓN
+Subí index.html, logo.png, manifest.webmanifest, sw.js y este LEEME.txt al directorio raíz del repositorio de GitHub Pages. Reemplazá los archivos con el mismo nombre.
