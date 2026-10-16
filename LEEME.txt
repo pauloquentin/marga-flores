@@ -1,18 +1,26 @@
-MARGA FLORES V2.6 — GASTOS Y MOVILIDAD
+MARGA FLORES V2.7 — SUSCRIPCIONES · PRIMERA CAPA
 
-Esta versión mantiene los datos existentes y agrega una estructura más clara para los gastos del negocio.
+Esta versión agrega una ficha simple para registrar y administrar los acuerdos comerciales de suscripción, sin modificar la lógica de ventas, gastos, clientes ni respaldos.
 
-CAMBIOS PRINCIPALES
-- Compras pasa a funcionar como “Compras y gastos”.
-- Nuevos tipos: Insumos, Movilidad, Marketing / Imagen, Otros gastos y Equipamiento / inversión.
-- Movilidad incluye Combustible, Transporte, Estacionamiento y Otros.
-- Equipamiento / inversión queda separado de los gastos operativos.
-- El Panel muestra “Gastos del negocio” y “Resultado operativo”.
-- Resultado operativo = Ventas − gastos del negocio.
-- El equipamiento se informa aparte como inversión y no reduce el resultado operativo.
-- El gráfico Ventas vs. gastos compara ventas contra gastos del negocio, sin equipamiento.
-- Los registros anteriores se conservan. Los tipos antiguos de equipamiento siguen tratados como inversión.
-- Service Worker actualizado a V2.6.
+DATOS DE LA SUSCRIPCIÓN
+- Cliente identificado.
+- Dirección de entrega.
+- Tamaño del arreglo: Chico, Mediano o Grande.
+- Frecuencia: Semanal, Quincenal o Mensual.
+- Cantidad de arreglos por frecuencia.
+- Florero: Sí / No.
+- Valor total del período.
+- Fecha de inicio.
+- Estado: Activa / Finalizada.
+- Aclaraciones para horarios e indicaciones de entrega.
+
+CRITERIO DE ESTA VERSIÓN
+- La suscripción representa el acuerdo comercial.
+- Todavía no genera automáticamente períodos ni entregas.
+- Todavía no genera calendario ni alertas.
+- Cobros y entregas se incorporarán en una etapa posterior.
+- La fecha de finalización queda abierta: una suscripción activa continúa hasta que el cliente indique que no quiere recibir más flores.
 
 IMPORTANTE
 No borres los datos del sitio. Los datos siguen guardándose localmente en el navegador. Hacé respaldos JSON periódicos.
+Service Worker actualizado a V2.7.
