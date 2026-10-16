@@ -1,22 +1,18 @@
-MARGA FLORES · V2.5 · FICHAS DE CLIENTES
+MARGA FLORES V2.6 — GASTOS Y MOVILIDAD
 
-NOVEDAD
-- Ficha individual de cada cliente, inspirada en las antiguas fichas de cartón.
-- Resumen: total comprado, cantidad de compras, última compra, rubro y canal más habituales y ticket promedio.
-- Historial de movimientos por fecha, concepto, canal, importe y estado de cobro.
-- Acciones rápidas: nueva venta y editar cliente.
-- Se conserva el almacenamiento local existente (margaFloresV1) y los datos de V2.3.
+Esta versión mantiene los datos existentes y agrega una estructura más clara para los gastos del negocio.
+
+CAMBIOS PRINCIPALES
+- Compras pasa a funcionar como “Compras y gastos”.
+- Nuevos tipos: Insumos, Movilidad, Marketing / Imagen, Otros gastos y Equipamiento / inversión.
+- Movilidad incluye Combustible, Transporte, Estacionamiento y Otros.
+- Equipamiento / inversión queda separado de los gastos operativos.
+- El Panel muestra “Gastos del negocio” y “Resultado operativo”.
+- Resultado operativo = Ventas − gastos del negocio.
+- El equipamiento se informa aparte como inversión y no reduce el resultado operativo.
+- El gráfico Ventas vs. gastos compara ventas contra gastos del negocio, sin equipamiento.
+- Los registros anteriores se conservan. Los tipos antiguos de equipamiento siguen tratados como inversión.
+- Service Worker actualizado a V2.6.
 
 IMPORTANTE
-- No borres los datos del sitio. Mantené respaldos JSON periódicos.
-- Esta versión no incorpora todavía suscripciones/entregas dentro de la ficha; eso queda para una etapa posterior.
-
-PUBLICACIÓN
-Subí index.html, logo.png, manifest.webmanifest, sw.js y este LEEME.txt al directorio raíz del repositorio de GitHub Pages. Reemplazá los archivos con el mismo nombre.
-
-
-V2.5 · COBROS PENDIENTES
-- Desde el indicador «Pendiente de cobro» del Panel se accede al detalle agrupado por cliente.
-- Los cobros pendientes respetan el período seleccionado.
-- Desde cada cliente se puede abrir su ficha. «Consumidor final» se mantiene agrupado sin crear una ficha individual.
-- No se modifica la ficha de cliente para mantener la interfaz simple.
+No borres los datos del sitio. Los datos siguen guardándose localmente en el navegador. Hacé respaldos JSON periódicos.
