@@ -1,26 +1,25 @@
-MARGA FLORES V2.7 — SUSCRIPCIONES · PRIMERA CAPA
+MARGA FLORES · V2.7.1 · SUSCRIPCIONES
 
-Esta versión agrega una ficha simple para registrar y administrar los acuerdos comerciales de suscripción, sin modificar la lógica de ventas, gastos, clientes ni respaldos.
+Esta versión corrige/actualiza la estructura de Suscripciones (menú Planes).
 
-DATOS DE LA SUSCRIPCIÓN
-- Cliente identificado.
-- Dirección de entrega.
-- Tamaño del arreglo: Chico, Mediano o Grande.
-- Frecuencia: Semanal, Quincenal o Mensual.
-- Cantidad de arreglos por frecuencia.
-- Florero: Sí / No.
-- Valor total del período.
-- Fecha de inicio.
-- Estado: Activa / Finalizada.
-- Aclaraciones para horarios e indicaciones de entrega.
+La suscripción representa el acuerdo comercial y permite cargar:
+- Cliente
+- Dirección de entrega
+- Tamaño del arreglo: Chico / Mediano / Grande
+- Frecuencia: Semanal / Quincenal / Mensual
+- Cantidad de arreglos por frecuencia
+- Florero: Sí / No
+- Valor del período contratado
+- Fecha de inicio
+- Estado: Activa / Finalizada
+- Aclaraciones
 
-CRITERIO DE ESTA VERSIÓN
-- La suscripción representa el acuerdo comercial.
-- Todavía no genera automáticamente períodos ni entregas.
-- Todavía no genera calendario ni alertas.
-- Cobros y entregas se incorporarán en una etapa posterior.
-- La fecha de finalización queda abierta: una suscripción activa continúa hasta que el cliente indique que no quiere recibir más flores.
+Esta etapa NO incorpora todavía períodos, entregas ni cobros automáticos.
 
-IMPORTANTE
-No borres los datos del sitio. Los datos siguen guardándose localmente en el navegador. Hacé respaldos JSON periódicos.
-Service Worker actualizado a V2.7.
+IMPORTANTE:
+- Mantiene la misma clave de almacenamiento local: margaFloresV1.
+- No borrar los datos del sitio ni limpiar almacenamiento.
+- Antes de reemplazar archivos en GitHub, se recomienda descargar un respaldo JSON desde Más.
+
+Actualización PWA:
+- Service Worker V2.7.1 con nueva caché y actualización de index.html.
